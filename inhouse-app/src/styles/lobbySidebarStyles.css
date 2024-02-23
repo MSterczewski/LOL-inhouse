@@ -1,0 +1,19 @@
+.join-lobby {
+  border: 1px solid #000;
+  width: 100%;
+  border-radius: 5%;
+}
+.join-lobby-nickname {
+  font-weight: bold;
+  text-align: center;
+}
+.join-lobby-rank {
+  text-align: center;
+}
+.join-lobby-join-button-wrapper {
+  align-self: center;
+  text-align: center;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}

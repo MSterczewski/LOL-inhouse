@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpier.Core" Version="0.27.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interfaces\ServiceInterfaces.csproj" />
+    <ProjectReference Include="..\NoSqlRepositories\NoSqlRepositories.csproj" />
+    <ProjectReference Include="..\NoSqlRepositoryInterfaces\NoSqlRepositoryInterfaces.csproj" />
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\SignalRInterfaces\SignalRInterfaces.csproj" />
+    <ProjectReference Include="..\WebDTOs\WebDTOs.csproj" />
+  </ItemGroup>
+
+</Project>

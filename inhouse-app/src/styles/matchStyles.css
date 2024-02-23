@@ -1,0 +1,15 @@
+.match-table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.match-position-cell {
+  width: 40px;
+  border: 1px solid black;
+}
+
+/* PLAYER CELL */
+.match-player-cell {
+  width: 50%;
+  border: 1px solid black;
+}

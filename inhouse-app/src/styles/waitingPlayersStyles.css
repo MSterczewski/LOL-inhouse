@@ -1,0 +1,103 @@
+.home-page-waiting-players-table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.home-page-waiting-players-single-player {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.home-page-waiting-players-container {
+  /* display: flex; */
+  vertical-align: top;
+}
+
+.home-page-waiting-players-start-matchmaking-button {
+  float: right;
+}
+
+.home-page-waiting-players-single-player-nickname {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  /* text-align: center; */
+}
+
+.home-page-waiting-players-single-player-avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.home-page-waiting-players-single-player-avatar-placeholder {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+}
+
+.home-page-waiting-players-single-player-avatar-column {
+  width: 50px;
+}
+
+/* Priorities */
+.home-page-waiting-players-single-player-priority {
+  text-align: center;
+}
+
+.home-page-waiting-players-single-player-priorities-single-indicator {
+  width: 20px;
+  /* height: 20px; */
+}
+.home-page-waiting-players-single-player-priorities-single-indicator-small {
+  width: 15px;
+  /* height: 20px; */
+}
+
+.home-page-waiting-players-single-player-priorities-grouped-indicators {
+  width: 20%;
+  height: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+/* Remove player */
+.home-page-waiting-players-single-player-remove-player {
+  width: 20px;
+}
+
+.home-page-waiting-players-single-player-remove-player-button {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.home-page-waiting-players-single-player-remove-player-image {
+  width: 20px;
+  height: 20px;
+}
+
+.home-page-role-field-priority {
+  position: absolute;
+  left: 30%;
+  right: 0px;
+  width: 70%;
+  height: 20px;
+  top: 0%;
+}
+
+.home-page-role-field-priority-wrapper {
+  height: 20px;
+  position: relative;
+}
+.home-page-role-field-priority-label {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  top: 10px;
+}

@@ -1,0 +1,30 @@
+.home-page-layout-table {
+  width: 100%;
+}
+
+.home-page-layout-table-player-info-column {
+  width: 200px;
+  /* justify-content: center; */
+  display: flex;
+}
+
+.home-page-layout-table-waiting-players-column {
+  width: 100%;
+  vertical-align: top;
+  /* width: auto; */
+}
+
+.home-page-player-info {
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+}
+
+.home-page-match-found {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
+}

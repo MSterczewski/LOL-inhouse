@@ -1,0 +1,37 @@
+.account-wrapper {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.account-form {
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+.account-header {
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+}
+
+.account-input {
+  /* float: right;
+  display: inline-flex; */
+  /* text-align: right; */
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: auto;
+  vertical-align: middle;
+}
+
+.account-input-wrapper {
+  display: flex;
+}
+.account-input-rank-selector {
+  width: 200px;
+  margin-right: 2px;
+}

@@ -1,0 +1,54 @@
+/* https://www.canva.com/colors/color-palettes/ice-infinity/ */
+.main-layout {
+  background-color: #d9e4ec;
+  height: 100vh;
+}
+
+.main-layout-nav-bar {
+  background-color: #6aabd2;
+  height: 70px;
+}
+
+.main-layout-nav-bar-main-button {
+  display: inline-block;
+  top: 20px;
+  position: fixed;
+  left: 10px;
+}
+
+.main-layout-nav-bar-account-button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  float: right;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.main-layout-nav-bar-account-button-image {
+  width: 100%;
+  height: 100%;
+}
+
+.main-layout-nav-bar-logout-button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  float: right;
+  margin-top: 10px;
+}
+
+.main-layout-nav-bar-logout-button-image {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0;
+}
